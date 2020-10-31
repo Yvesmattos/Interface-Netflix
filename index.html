@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Netflix/style/main.css">
+
+    <!-- owl css -->
+
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!-- responsive style -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo"> NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="principal-movie">
+            <div class="container">
+                <h3 class="title">HOUSE OF CARDS</h3>
+                <p class="desc">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington.
+                    Assista agora a nova temporada de House of Cards que está imperdível</p>
+                <div class="buttons">
+                    <button class="bt" role="button">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>       
+                    <button class="bt" role="button">
+                        <i class="fas fa-info"></i>
+                        DETALHES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carousel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img id="img1" src="imgs/BB/mini-bb.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+            <div class="item">
+                <img id="img2" src="imgs/GuerraCivil/mini-civilwar.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+            <div class="item">
+                <img id="img3" src="imgs/Hobbit/mini-hobbit.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+            <div class="item">
+                <img id="img4" src="imgs/HOC/mini-HOC.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+            <div class="item">
+                <img id="img5" src="imgs/House/mini-house.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+            <div class="item">
+                <img id="img6" src="imgs/Pokemon/mini-pokemon.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+            <div class="item">
+                <img id="img7" src="imgs/Smalville/mini-smallville.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+            <div class="item">
+                <img id="img8" src="imgs/StarWars/mini-starwars.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+            <div class="item">
+                <img id="img9" src="imgs/Supernatural/mini-supernatural.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+            <div class="item">
+                <img id="img10" src="imgs/TUA/mini-TUA.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+            <div class="item">
+                <img id="img10" src="imgs/Vingadores/mini-vingadores.jpg" onclick="alternarSerieFilme(id)">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://kit.fontawesome.com/cc4f1a3497.js" crossorigin="anonymous"></script>
+<script src="js/owl/jquery.min.js"></script>
+<script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/owl/mais.js"></script>
+<script src="js/scriptsMain.js"></script>
+
+</html>
