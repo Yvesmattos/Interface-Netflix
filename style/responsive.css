@@ -1,20 +1,25 @@
 @media screen and (max-width:700px){
     header .container{
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
     }
 
-    .button{
+    .bt{
         margin-top: 5px;
-        width: 190px;
-        height: 300px;
+        width: 280px;
     }
 
+    .principal-movie .title{
+        font-size: 28px;
+    }
+
+    .principal-movie .container {
+        width: 90%;
+    }
 }
 
-@media screen and (max-width:1000px){
+@media screen and (min-width:1000px){
     .desc{
         width: 50%;
     }
-
 }

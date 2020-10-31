@@ -15,12 +15,12 @@ function alternarSerieFilme(id) {
         case 'img3':
             document.getElementsByClassName("principal-movie")[0].style.backgroundImage = "linear-gradient(rgba(150,150,150,0.5),rgba(200,200,200,0.8)100%),url(imgs/Hobbit/capa-hobbit.jpg)";
             document.getElementsByClassName("title")[0].innerHTML = "O HOBBIT: A BATALHA DOS CINCO EXÉRCITOS"
-            document.getElementsByClassName("desc")[0].innerHTML = "O dragão Smaug lança sua fúria ardente contra a Cidade do Lago que fica próxima da montanha de Erebor. Bard consegue derrotá-lo, mas, rapidamente, sem a ameaça do dragão, inicia-se uma batalha pelo controle de Erebor e sua riqueza. Os anões, liderados por Thorin, adentram a montanha e estão dispostos a impedir a entrada de elfos, anões e orcs. Bilbo Bolseiro e Gandalf tentam impedir a guerra.";
+            document.getElementsByClassName("desc")[0].innerHTML = "O dragão Smaug lança sua fúria ardente contra a Cidade do Lago que fica próxima da montanha de Erebor. Bard consegue derrotá-lo, mas, rapidamente, sem a ameaça do dragão, inicia-se uma batalha pelo controle de Erebor e sua riqueza.";
             break;
         case 'img4':
             document.getElementsByClassName("principal-movie")[0].style.backgroundImage = "linear-gradient(rgba(150,150,150,0.5),rgba(200,200,200,0.8)100%),url(imgs/HOC/capa-HOC.jpg)";
             document.getElementsByClassName("title")[0].innerHTML = "HOUSE OF CARDS"
-            document.getElementsByClassName("desc")[0].innerHTML = ">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.";
+            document.getElementsByClassName("desc")[0].innerHTML = "Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.";
             break;
         case 'img5':
             document.getElementsByClassName("principal-movie")[0].style.backgroundImage = "linear-gradient(rgba(150,150,150,0.5),rgba(200,200,200,0.8)100%),url(imgs/House/capa-house.jpg)";
@@ -40,7 +40,7 @@ function alternarSerieFilme(id) {
         case 'img8':
             document.getElementsByClassName("principal-movie")[0].style.backgroundImage = "linear-gradient(rgba(150,150,150,0.5),rgba(200,200,200,0.8)100%),url(imgs/StarWars/capa-starwars.jpg)";
             document.getElementsByClassName("title")[0].innerHTML = "STAR WARS: A ASCENÇÃO SKYWALKER"
-            document.getElementsByClassName("desc")[0].innerHTML = "Com o retorno do Imperador Palpatine, todos voltam a temer seu poder e, com isso, a Resistência toma a frente da batalha que ditará os rumos da galáxia. Treinando para ser uma completa Jedi, Rey (Daisy Ridley) ainda se encontra em conflito com seu passado e futuro, mas teme pelas respostas que pode conseguir a partir de sua complexa ligação com Kylo Ren (Adam Driver), que também se encontra em conflito pela Força.";
+            document.getElementsByClassName("desc")[0].innerHTML = "Com o retorno do Imperador Palpatine, todos voltam a temer seu poder e, com isso, a Resistência toma a frente da batalha que ditará os rumos da galáxia.";
             break;
         case 'img9':
             document.getElementsByClassName("principal-movie")[0].style.backgroundImage = "linear-gradient(rgba(150,150,150,0.5),rgba(200,200,200,0.8)100%),url(imgs/Supernatural/capa-supernatural.jpg)";
